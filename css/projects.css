@@ -1,0 +1,95 @@
+.project-art {
+  padding: 0;
+  background: #111;
+}
+
+.project-art::after {
+  display: none;
+}
+
+.project-preview-media {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.project-monogram {
+  z-index: 2;
+  padding: 5px 9px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--bg) 86%, transparent);
+}
+
+.project-title-row h3 {
+  text-transform: none;
+}
+
+.project-number {
+  flex: 0 0 auto;
+  color: var(--muted);
+  font-size: .76rem;
+  font-weight: 800;
+  letter-spacing: .12em;
+}
+
+.project-feature-list {
+  margin: 12px 0 0;
+  padding-left: 20px;
+  color: var(--muted);
+  font-size: .88rem;
+}
+
+.project-feature-list li + li {
+  margin-top: 5px;
+}
+
+.project-more {
+  margin: 26px 0 0;
+  text-align: center;
+}
+
+.project-page {
+  padding-top: 90px;
+}
+
+.project-page-head > .eyebrow {
+  margin-bottom: 10px;
+}
+
+.project-page-head > h1 {
+  margin: 0;
+  font-size: clamp(2.8rem, 7vw, 5rem);
+  line-height: 1;
+  letter-spacing: -.075em;
+}
+
+.project-page-head > p {
+  max-width: 650px;
+  margin: 16px 0 36px;
+  color: var(--muted);
+}
+
+.project-card--detail {
+  scroll-margin-top: 105px;
+}
+
+.project-card--detail .project-art {
+  height: 300px;
+}
+
+.project-card--detail video.project-preview-media {
+  background: #111;
+}
+
+@media (max-width: 680px) {
+  .project-page {
+    padding-top: 78px;
+  }
+
+  .project-card--detail .project-art {
+    height: 220px;
+  }
+}

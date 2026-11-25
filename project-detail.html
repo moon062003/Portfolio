@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f6f3">
+  <meta name="description" content="Project details for Marufa Sultana Moon's selected work.">
+  <title>Project Details — Marufa Sultana Moon</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="./css/portfolio.css">
+  <link rel="stylesheet" href="./css/projects.css">
+  <link rel="stylesheet" href="./css/project-detail.css">
+</head>
+<body>
+  <div id="scrollProgress" aria-hidden="true"></div>
+  <header class="topbar" id="top">
+    <div class="wrap nav mx-auto">
+      <a class="brand" href="index.html#home" aria-label="Marufa Sultana Moon home">moon<em>.</em></a>
+      <nav class="navlinks" id="navlinks" aria-label="Main navigation">
+        <a href="index.html#home">Home</a><a href="index.html#about">About</a>
+        <a href="index.html#business">Business</a><a href="index.html#skills">Skills</a>
+        <a href="index.html#education">Education</a><a href="index.html#projects">Projects</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch color theme" title="Switch color theme"><span id="themeIcon">☼</span></button>
+        <a class="button small nav-talk" href="index.html#contact">Let’s Talk <span aria-hidden="true">↗</span></a>
+        <button class="menu-btn" id="menuToggle" type="button" aria-label="Open navigation menu" aria-expanded="false"><span id="menuIcon">☰</span></button>
+      </div>
+    </div>
+  </header>
+  <main class="wrap project-detail-main" data-project-detail>
+    <a class="project-detail-back" href="index.html#projects">← Back to projects</a>
+    <div class="project-detail-grid">
+      <section class="project-detail-copy" aria-labelledby="projectTitle">
+        <p class="project-detail-eyebrow">Project Details</p>
+        <h1 class="project-detail-title" id="projectTitle" data-project-title></h1>
+        <p class="project-detail-stack-line" data-project-stack-line></p>
+        <section class="project-detail-block">
+          <h2>Main Technology Stack Used</h2>
+          <div class="project-detail-tech" data-project-stack></div>
+        </section>
+        <section class="project-detail-block">
+          <h2>Brief Description</h2>
+          <p data-project-description></p>
+        </section>
+        <section class="project-detail-block">
+          <h2>Live Project / Demo</h2>
+          <p class="project-demo-note" data-demo-note hidden>No live demo URL was provided for this project. Its preview is shown on this page.</p>
+          <div class="project-detail-actions">
+            <a class="button" data-project-demo href="#" target="_blank" rel="noreferrer" hidden></a>
+          </div>
+        </section>
+        <section class="project-detail-block">
+          <h2>GitHub Repository</h2>
+          <div class="project-detail-actions">
+            <a class="button outline" data-project-github href="#" target="_blank" rel="noreferrer">GitHub Repository ↗</a>
+          </div>
+        </section>
+        <section class="project-detail-block">
+          <h2>Project Highlights</h2>
+          <ul class="project-detail-highlights" data-project-highlights></ul>
+        </section>
+      </section>
+      <aside class="project-detail-side">
+        <figure class="project-detail-media-frame" data-project-media aria-label="Project preview"></figure>
+        <section class="project-detail-summary">
+          <h2>Project Overview</h2>
+          <p data-project-overview></p>
+        </section>
+      </aside>
+    </div>
+  </main>
+  <footer class="footer"><div class="wrap footer-inner"><a class="brand" href="index.html#home">moon<em>.</em></a><span>© 2026 Marufa Sultana Moon · All Rights Reserved</span><a href="index.html#projects">Projects</a></div></footer>
+  <a class="back-top" id="backTop" href="#top" aria-label="Back to top">↑</a>
+  <script src="./js/theme.js" defer></script>
+  <script src="./js/navigation.js" defer></script>
+  <script src="./js/projects-data.js" defer></script>
+  <script src="./js/project-detail.js" defer></script>
+</body>
+</html>

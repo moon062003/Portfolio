@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">GridBalance energy dashboard preview</title>
+  <desc id="desc">A dark green energy dashboard with building load, solar generation, HVAC demand, and an energy flow chart.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101d1b"/><stop offset="1" stop-color="#203a32"/></linearGradient>
+    <linearGradient id="chart" x2="0" y2="1"><stop stop-color="#6ee7b7" stop-opacity=".4"/><stop offset="1" stop-color="#6ee7b7" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="1200" height="680" fill="url(#bg)"/>
+  <rect x="28" y="28" width="1144" height="624" rx="24" fill="#f6f8f5"/>
+  <rect x="28" y="28" width="220" height="624" rx="24" fill="#142320"/>
+  <rect x="224" y="28" width="24" height="624" fill="#142320"/>
+  <circle cx="72" cy="77" r="18" fill="#8ee5be"/><path d="M72 64v26M59 77h26" stroke="#142320" stroke-width="4"/>
+  <text x="104" y="84" fill="#f3f7f4" font-family="Arial,sans-serif" font-size="24" font-weight="700">GridBalance</text>
+  <text x="54" y="145" fill="#6f8a7d" font-family="Arial,sans-serif" font-size="13" letter-spacing="2">ENERGY COMMAND</text>
+  <g fill="#d4e1da" font-family="Arial,sans-serif" font-size="17"><text x="58" y="202">Overview</text><text x="58" y="254">Buildings</text><text x="58" y="306">Energy analytics</text><text x="58" y="358">HVAC systems</text><text x="58" y="410">Solar generation</text></g>
+  <rect x="44" y="165" width="187" height="53" rx="12" fill="#2b493e"/>
+  <text x="286" y="92" fill="#18352d" font-family="Arial,sans-serif" font-size="28" font-weight="700">Building energy overview</text>
+  <text x="286" y="124" fill="#75847e" font-family="Arial,sans-serif" font-size="16">Live performance across your building portfolio</text>
+  <g font-family="Arial,sans-serif"><rect x="284" y="154" width="194" height="116" rx="16" fill="#fff"/><rect x="494" y="154" width="194" height="116" rx="16" fill="#fff"/><rect x="704" y="154" width="194" height="116" rx="16" fill="#fff"/><rect x="914" y="154" width="222" height="116" rx="16" fill="#fff"/>
+    <g fill="#74817b" font-size="14"><text x="304" y="185">Building load</text><text x="514" y="185">Solar today</text><text x="724" y="185">HVAC demand</text><text x="934" y="185">Carbon saved</text></g>
+    <g fill="#173d31" font-size="27" font-weight="700"><text x="304" y="226">428 kW</text><text x="514" y="226">186 kWh</text><text x="724" y="226">62%</text><text x="934" y="226">1.8 tons</text></g>
+  </g>
+  <rect x="284" y="294" width="544" height="304" rx="18" fill="#fff"/><text x="310" y="333" fill="#193c31" font-family="Arial,sans-serif" font-size="20" font-weight="700">Energy usage</text><text x="310" y="358" fill="#819089" font-family="Arial,sans-serif" font-size="14">Load and solar generation · Today</text>
+  <path d="M322 528 C370 493 394 515 436 465 S503 482 550 432 S622 452 667 397 S743 411 790 374 L790 565 L322 565Z" fill="url(#chart)"/><path d="M322 528 C370 493 394 515 436 465 S503 482 550 432 S622 452 667 397 S743 411 790 374" fill="none" stroke="#1d8a65" stroke-width="5" stroke-linecap="round"/>
+  <path d="M322 500 C374 520 399 489 444 505 S513 475 558 493 S631 464 676 483 S744 448 790 463" fill="none" stroke="#e6a34b" stroke-width="4" stroke-linecap="round"/>
+  <g stroke="#e9efeb" stroke-width="2"><path d="M322 400h468M322 445h468M322 490h468M322 535h468"/></g>
+  <rect x="848" y="294" width="288" height="304" rx="18" fill="#fff"/><text x="874" y="333" fill="#193c31" font-family="Arial,sans-serif" font-size="20" font-weight="700">Load balancer</text><rect x="874" y="355" width="236" height="119" rx="14" fill="#eaf5ef"/><circle cx="908" cy="391" r="15" fill="#36a676"/><path d="M901 391l5 5 10-11" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><text x="934" y="394" fill="#257252" font-family="Arial,sans-serif" font-size="14" font-weight="700">Action recommended</text><text x="898" y="432" fill="#496057" font-family="Arial,sans-serif" font-size="14">Shift HVAC cooling to</text><text x="898" y="454" fill="#496057" font-family="Arial,sans-serif" font-size="14">reduce peak grid demand.</text>
+  <g fill="#95a49c" font-family="Arial,sans-serif" font-size="13"><text x="322" y="582">06:00</text><text x="470" y="582">10:00</text><text x="618" y="582">14:00</text><text x="766" y="582">18:00</text></g>
+</svg>
